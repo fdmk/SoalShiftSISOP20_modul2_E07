@@ -39,4 +39,4 @@ setiap 5 detik dengan ukuran (unix time%1000)+100,Langkah pertama kita membuat c
 
 C. Dalam poin ini kita me-commpress directory hasil unduhan kita, setelah berhasil kita menghapus directory tersebut
 
-P.S. untuk ketereangan lebih lanjut terdapat pada comment SC
+P.S. untuk keterangan lebih lanjut terdapat pada comment SC
