@@ -31,15 +31,12 @@ Memasukkan detik, menit, jam ke tm dan memasukkan kondisi input yang valid
 Menjalankan execv
 
 Soal 2
-A. ![soal 2A](https://user-images.githubusercontent.com/61625353/76606273-8d3d2e80-6544-11ea-8766-c16cf232d46a.PNG)
 
-Di soal 2 kita diminta untuk membuat sebuah folder khusus, di dalamnya terdapat sebuah program C yang per 30 detik membuat sebuah folder dengan nama timestamp [YYYY-mm-dd_HH:ii:ss]. Pertama, kita membuat char untuk menyimpan nama folder dengan format waktu. Lalu, kita menggunakan struct untuk mengambil current time. kemudian waktu dimasukkan ke dalam char Time_dir, kemudian membuat char untuk penyimpanan directory baru.
+A. Dalam poin ini kita diminta untuk membuat directory setiap 30 detik dengan nama waaktu pembuatan directori. Langkah pertama kita membuat char sebagai penyimpan nama directory dengan format waktu, langkah kedua kita mengambil time stamp [YYYY-MM-DD_hh:ii:ss] menggunakan “struct time_t” kemudian dimasukkan kedalam char tersebut.
 
-B. ![soal2b_1](https://user-images.githubusercontent.com/61625353/76607628-dc845e80-6546-11ea-8e5d-f51082472506.PNG)
+B. Dalam poin ini kita diminta melakukan unduhan 20 gambar dari link https://picsum.photos/   
+setiap 5 detik dengan ukuran (unix time%1000)+100,Langkah pertama kita membuat char sebagai penyimpan current time untuk nama dari gambar yang di unduh, langkah kedua melakukan unduhan  serta pemberian nama pada file yang diunduh, langkah ketiga memberi ukuran pada foto dalam langkah ini kita mengambil unix time menggunakan “struct time_t”
 
-![soal2b_2](https://user-images.githubusercontent.com/61625353/76607662-eefe9800-6546-11ea-9440-b1e38edca090.PNG)
-Tiap-tiap folder lalu diisi dengan 20 gambar yang di download dari https://picsum.photos/, dimana tiap gambar di download setiap 5 detik. Tiap gambar berbentuk persegi dengan ukuran (t%1000)+100 piksel dimana t adalah detik Epoch Unix. Gambar tersebut diberi nama dengan format timestamp [YYYYmm- dd_HH:ii:ss]. Penjelasan untuk soal ini sudah tertera pada comment source code
+C. Dalam poin ini kita me-commpress directory hasil unduhan kita, setelah berhasil kita menghapus directory tersebut
 
-C. ![soal2c](https://user-images.githubusercontent.com/61625353/76607956-68968600-6547-11ea-9071-ad4e338b9c19.PNG)
-
-Agar rapi, setelah sebuah folder telah terisi oleh 20 gambar, folder akan di zip dan folder akan di delete(sehingga hanya menyisakan .zip). Penjelasan sudah jelas pada comment sc.
+P.S. untuk ketereangan lebih lanjut terdapat pada comment SC
