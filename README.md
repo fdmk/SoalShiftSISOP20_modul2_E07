@@ -1,7 +1,10 @@
 # SoalShiftSISOP20_modul2_E07
 Soal 1
+
 ![1_1](https://user-images.githubusercontent.com/61625353/77227389-9a949180-6bb2-11ea-8b9d-4d2c4aacb58f.PNG)
+
 Fungsi di atas merupakan fungsi cekangka dan cekbintang untuk mengecek apakah input berupa angka atau bintang.
+
 ![2_1](https://user-images.githubusercontent.com/61625353/77227480-3d4d1000-6bb3-11ea-8407-55541f4698b0.PNG)
 Fungsi cekpath untuk mengecek apakah path file yang di inputkan valid
 ![l](https://user-images.githubusercontent.com/61625353/77227564-c6644700-6bb3-11ea-8ec1-c904adba61ad.PNG)
