@@ -20,7 +20,9 @@ Mengecek apakah input yang dimasukkan sesuai dengan yang diminta, jika tidak ses
 ![ngakuo](https://user-images.githubusercontent.com/61625353/77227694-b1d47e80-6bb4-11ea-91e3-27124c0bb476.PNG)
 
 Mengubah nilai string menjadi integer
+
 Mengecek apakah input sesuai range detik menit jam
+
 Mengecek apakah file path sesuai
 
 ![taim](https://user-images.githubusercontent.com/61625353/77227781-4808a480-6bb5-11ea-9ceb-2de857becad9.PNG)
